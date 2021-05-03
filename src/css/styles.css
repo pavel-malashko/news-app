@@ -1,0 +1,100 @@
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+.input-title{
+    font-size: 24px;
+    color: white;
+}
+
+.input{
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 0;
+}
+
+.source{
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.label{
+    font-size: 18px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.search-form{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+tr{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn{
+    text-transform: uppercase;
+    outline: 0;
+    background: #1fb6f1;
+    border: 0;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 14px;
+    transition: all .3 ease;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.btn:hover {
+    background: #3fcc59;
+}
+.load-more-btn{
+    text-align: center;
+    padding-top: 30px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+
+img:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+th{
+    margin: 10px;
+}
+a{
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+a:hover{
+    color: #1fb6f1;
+}
+.source-label{
+    margin-left: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.news-form{
+    text-align: center;
+}
